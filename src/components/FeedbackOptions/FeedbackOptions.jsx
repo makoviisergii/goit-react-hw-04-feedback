@@ -22,7 +22,7 @@ export const FeedbackOptions = props => {
 };
 
 FeedbackOptions.propTypes = {
-  onLeaveFeedback: PropTypes.string.isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
 };
 
 const Button = styled.button`
